@@ -1,0 +1,116 @@
+body{
+    background-color: #2b6777;
+    margin: 30px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url(../IMG/1920x1080\ concretewall.jpg);
+    background-repeat: no-repeat; /* or repeat */
+    background-size: cover; /* or contain */
+    color: #ffffff;
+}
+
+.container{
+    width: 1200px;
+    margin: 0px auto;
+    background-color: #242424;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+}
+
+header{
+    padding: 40px;
+    overflow:hidden;
+}
+
+header > .logo{
+    font-size: 30px;
+    float:left;
+}
+
+nav{
+    float:right;
+}
+
+main{
+    padding: 50px;
+    overflow: hidden;
+}
+
+section{
+    width: 60%;
+    float:left;
+}
+
+article{
+    padding: 30px 0;
+    border-bottom: 1px solid grey;
+}
+article:last-child{
+    border-bottom: 0px;
+}
+
+aside{
+    width: 30%;
+    float:right;
+    background-color: #759288;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+aside h3{
+    text-align: center;
+    background-color: rgb(190, 68, 68);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+aside a{
+    color: black;
+}
+
+.aside2{
+    width: 30%;
+    height: 400px;
+    float: right;
+    background-color: #759288;
+    padding: 10px;
+}
+.aside2 h3{
+    text-align: center;
+    background-color: rgb(190, 68, 68);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+.aside2 a{
+    color: black;
+}
+
+.imgcontain{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding-top: 15px;
+}
+
+.mainos{
+    width:300px;
+    height:320px;
+}
+
+footer{
+    padding: 20px;
+    border-top: 1px solid grey;
+    text-align:center;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+h2, h3{
+    margin: 0;
+}
+
+a{
+    color: #4c7dbd;
+}
